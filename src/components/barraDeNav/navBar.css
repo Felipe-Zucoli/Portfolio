@@ -1,0 +1,27 @@
+/* fazer uma estilização simples da barra de navegação */ 
+
+.listaNav{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+li {
+    font-size: 19px;
+}
+
+/* estilização dos links da navBar */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
+
