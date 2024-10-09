@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 99.7%; 
+}
+
+.textHome{
+    max-width: 50%;
+    margin-bottom: 150px;
+    padding: 0 100px;
+}
+
+.textHome h3 {
+    width: 180px;
+    font-size: 30px;
+    transition: opacity 2s ease-in-out;
+    opacity: 1;
+}
+
+.textHome h3.fade-out {
+    opacity: 0;
+}
+
+.textHome p {
+    font-size: 70px;
+    margin-top: 5px;
+}
+
+.textHome ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 269px;
+    gap: 30px;
+}
+
+.textHome li {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.linkeIcon:hover {
+    color: #0e76a8;
+    font-size: 35px;
+}
+
+.gitIcon:hover {
+    color: red;
+    font-size: 35px;
+}
+
+.bttnSobre {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-radius: 150px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+}
