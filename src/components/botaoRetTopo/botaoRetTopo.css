@@ -1,0 +1,22 @@
+.voltarTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; 
+}
+
+.bttnVoltarTopo {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.7; 
+}
+
+.bttnVoltarTopo:hover {
+    opacity: 1; 
+}
