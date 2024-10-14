@@ -9,7 +9,7 @@ import BotaoRetTopo from './components/botaoRetTopo/botaoRetTopo';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <NavBar/>
       <BotaoRetTopo/>
       <Routes>
