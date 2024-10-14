@@ -1,6 +1,7 @@
 import "./contato.css";
 import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+
 const Contato = () => {
     return (
         <div className="containerContato">
