@@ -8,7 +8,7 @@ import Contato from './components/contato/contato'
 import BotaoRetTopo from './components/botaoRetTopo/botaoRetTopo';
 
 function App() {
-  const basename = import.meta.env.Base_URL;
+  const basename = import.meta.env.VITE_PUBLIC_URL || "/";
   return (  
     <Router basename={basename}>
       <NavBar/>
