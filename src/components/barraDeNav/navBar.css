@@ -28,6 +28,7 @@ li {
 /* estilização dos links da navBar */
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {

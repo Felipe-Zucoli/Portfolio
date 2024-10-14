@@ -1,0 +1,39 @@
+.containerContato {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.linkContato {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+}
+
+.linkeIconContato {
+    font-size: 35px;
+}
+
+.linkeIconContato:hover {
+    color: #0e76a8;
+    font-size: 45px;
+}
+
+.whatsIconContato {
+    font-size: 35px;
+}
+
+.whatsIconContato:hover {
+    color: #075e54;
+    font-size: 45px;
+}
