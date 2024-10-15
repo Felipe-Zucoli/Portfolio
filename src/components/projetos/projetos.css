@@ -1,0 +1,17 @@
+.containerPro {
+    font-size: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerPro p {
+    margin-top: 100px;
+}
+
+.containerPro img {
+    width: 50%;
+    height: auto;
+    max-width: 500px;
+}
