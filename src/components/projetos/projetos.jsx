@@ -1,12 +1,12 @@
 import "./projetos.css";
 import image from "../img/desenv.gif";
+import Card from "../Card/card";
 
 
 const Projetos = () => {
     return (
     <div className="containerPro">
-        <p>Em desenvolvimento.</p>
-        <img src={image} alt="Imagem generica criada no canvas"/>
+        <Card/>
     </div>
     )
 }
